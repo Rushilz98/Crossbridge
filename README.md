@@ -60,18 +60,18 @@ Start a local development server (if applicable) or open the index.html file in 
 
 # Usage
    ## 1. Connect Wallet
-      -Click the "Connect Wallet" button to connect your MetaMask wallet.
-      Ensure your wallet is connected to either the Sepolia or Amoy network.
+   Click the "Connect Wallet" button to connect your MetaMask wallet.
+   Ensure your wallet is connected to either the Sepolia or Amoy network.
   ## 2. Lock Assets
-       Enter the token address and amount you wish to lock on the Sepolia network.
-      Click "Lock Asset" to initiate the locking process.
-      The application will automatically approve and lock the specified amount of tokens.
+   Enter the token address and amount you wish to lock on the Sepolia network.
+   Click "Lock Asset" to initiate the locking process.
+   The application will automatically approve and lock the specified amount of tokens.
    ## 3. Mint Wrapped Tokens
-      Enter the amount of wrapped tokens you wish to mint on the Amoy network.
-      Click "Mint Asset" to initiate the minting process.
-      The application will:
-      Switch to the Amoy network.
-      Mint the wrapped tokens.
-      Switch back to the Sepolia network to deduct the locked balance.
+   Enter the amount of wrapped tokens you wish to mint on the Amoy network.
+   Click "Mint Asset" to initiate the minting process.
+   The application will:
+   Switch to the Amoy network.
+   Mint the wrapped tokens.
+   Switch back to the Sepolia network to deduct the locked balance.
    ## 4. View Transfer History
-      All transactions (locks and mints) are logged in the Transfer History table, including transaction hashes, timestamps, senders, receivers, and amounts.
+   All transactions (locks and mints) are logged in the Transfer History table, including transaction hashes, timestamps, senders, receivers, and amounts.
