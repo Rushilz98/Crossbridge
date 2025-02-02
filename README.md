@@ -75,3 +75,14 @@ Start a local development server (if applicable) or open the index.html file in 
    Switch back to the Sepolia network to deduct the locked balance.
    ## 4. View Transfer History
    All transactions (locks and mints) are logged in the Transfer History table, including transaction hashes, timestamps, senders, receivers, and amounts.
+
+
+   ## Smart Contract Addresses
+
+| Contract    | Network | Address |
+|------------|---------|----------------------------------|
+| **Gateway A** | Sepolia | `0xC17484a02F2D19AB4EA43D2B2071d20cf0f46B22` |
+| **Gateway B** | Amoy    | `0xDcb72b55b59b7869eF7E8b154CCA1792E624BD6d` |
+| **RKB Token** | Sepolia | `0x3EF14641FaE9536C79Abe78cBF78316e6749C557` |
+| **WHTK Token** | Amoy | `0x1CD0f3a9132159d48fBC7036527b2845E0B99eC9` |
+
