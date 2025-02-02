@@ -45,11 +45,11 @@ Before running the application, you need to configure the constants in the app.j
 };
 ```
 3. Replace the placeholder values with your actual details:
-   .GatewayA Address : The address of the GatewayA contract deployed on the Sepolia network.
-   .GatewayB Address : The address of the GatewayB contract deployed on the Amoy network.
-   .RKB Token Address : The address of the RKB token contract deployed on the Sepolia network.
-   .Sepolia RPC URL : Your Alchemy or Infura RPC URL for the Sepolia network.
-   .Chain IDs : Ensure the hexadecimal chain IDs for Amoy (0x13882) and Sepolia (0xaa36a7) are correct.
+   - GatewayA Address : The address of the GatewayA contract deployed on the Sepolia network.
+   - GatewayB Address : The address of the GatewayB contract deployed on the Amoy network.
+   - RKB Token Address : The address of the RKB token contract deployed on the Sepolia network.
+   - Sepolia RPC URL : Your Alchemy or Infura RPC URL for the Sepolia network.
+   - Chain IDs : Ensure the hexadecimal chain IDs for Amoy (0x13882) and Sepolia (0xaa36a7) are correct.
 4.Save the changes to the app.js file.
 
 Note : If you don't have the required contract addresses or RPC URLs, deploy the smart contracts on the respective networks and obtain the addresses. 
