@@ -26,7 +26,14 @@ Before running the application, ensure you have the following:
 ## **Installation**
 
 ### 1. Clone the Repository
-```bash
+```bash```
+
+
+## Step 3: Configure Constants
+Before running the application, you need to configure the constants in the app.js file with your specific contract addresses, token addresses, and RPC URLs. Follow these steps:
+
+1. Open the app.js file in your project directory.
+2. Locate the USER_CONSTANTS object at the top of the file
 
 const USER_CONSTANTS = {
     GATEWAY_A_ADDRESS: "0xC17484a02F2D19AB4EA43D2B2071d20cf0f46B22", // Replace with your GatewayA address
@@ -36,5 +43,15 @@ const USER_CONSTANTS = {
     AMOY_CHAIN_ID: "0x13882", // Amoy chain ID (hexadecimal)
     SEPOLIA_CHAIN_ID: "0xaa36a7", // Sepolia chain ID (hexadecimal)
 };
+
+3. Replace the placeholder values with your actual details:
+   .GatewayA Address : The address of the GatewayA contract deployed on the Sepolia network.
+   .GatewayB Address : The address of the GatewayB contract deployed on the Amoy network.
+   .RKB Token Address : The address of the RKB token contract deployed on the Sepolia network.
+   .Sepolia RPC URL : Your Alchemy or Infura RPC URL for the Sepolia network.
+   .Chain IDs : Ensure the hexadecimal chain IDs for Amoy (0x13882) and Sepolia (0xaa36a7) are correct.
+4.Save the changes to the app.js file.
+
+Note : If you don't have the required contract addresses or RPC URLs, deploy the smart contracts on the respective networks and obtain the addresses. 
 
 
