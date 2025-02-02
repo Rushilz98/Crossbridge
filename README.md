@@ -86,3 +86,14 @@ Start a local development server (if applicable) or open the index.html file in 
 | **RKB Token** | Sepolia | `0x3EF14641FaE9536C79Abe78cBF78316e6749C557` |
 | **WHTK Token** | Amoy | `0x1CD0f3a9132159d48fBC7036527b2845E0B99eC9` |
 
+## Troubleshooting
+
+### 1. Network Switching Issues  
+- If the application fails to switch networks automatically, manually switch to the required network (**Sepolia** or **Amoy**) in MetaMask.  
+
+### 2. Insufficient Funds  
+- Ensure you have sufficient **test ETH** on **Sepolia** and **test MATIC** on **Amoy** to cover gas fees.  
+
+### 3. Transaction Failures  
+- Check the **console logs** for detailed error messages.  
+- Ensure the **contract addresses** and **RPC URLs** are correctly configured.  
