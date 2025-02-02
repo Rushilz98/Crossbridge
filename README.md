@@ -26,7 +26,7 @@ Before running the application, ensure you have the following:
 ## **Installation**
 
 ### 1. Clone the Repository
-```[GitHub Repository](https://github.com/your-username/your-repo)```
+[GitHub Repository](https://github.com/Rushilz98/Crossbridge.git)
 
 
 ## Step 3: Configure Constants
