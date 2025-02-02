@@ -26,8 +26,9 @@ Before running the application, ensure you have the following:
 ## **Installation**
 
 ### 1. Clone the Repository
-[GitHub Repository](https://github.com/Rushilz98/Crossbridge.git)
-
+```
+https://github.com/Rushilz98/Crossbridge.git)
+```
 
 ## Step 3: Configure Constants
 Before running the application, you need to configure the constants in the app.js file with your specific contract addresses, token addresses, and RPC URLs. Follow these steps:
