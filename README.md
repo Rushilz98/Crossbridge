@@ -35,7 +35,7 @@ Before running the application, you need to configure the constants in the app.j
 1. Open the app.js file in your project directory.
 2. Locate the USER_CONSTANTS object at the top of the file
 
-const USER_CONSTANTS = {
+```const USER_CONSTANTS = {
     GATEWAY_A_ADDRESS: "0xC17484a02F2D19AB4EA43D2B2071d20cf0f46B22", // Replace with your GatewayA address
     GATEWAY_B_ADDRESS: "0xDcb72b55b59b7869eF7E8b154CCA1792E624BD6d", // Replace with your GatewayB address
     RKB_TOKEN_ADDRESS: "0x3EF14641FaE9536C79Abe78cBF78316e6749C557", // Replace with your RKB token address
@@ -43,7 +43,7 @@ const USER_CONSTANTS = {
     AMOY_CHAIN_ID: "0x13882", // Amoy chain ID (hexadecimal)
     SEPOLIA_CHAIN_ID: "0xaa36a7", // Sepolia chain ID (hexadecimal)
 };
-
+```
 3. Replace the placeholder values with your actual details:
    .GatewayA Address : The address of the GatewayA contract deployed on the Sepolia network.
    .GatewayB Address : The address of the GatewayB contract deployed on the Amoy network.
