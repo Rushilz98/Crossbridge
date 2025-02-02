@@ -96,4 +96,13 @@ Start a local development server (if applicable) or open the index.html file in 
 
 ### 3. Transaction Failures  
 - Check the **console logs** for detailed error messages.  
-- Ensure the **contract addresses** and **RPC URLs** are correctly configured.  
+- Ensure the **contract addresses** and **RPC URLs** are correctly configured.
+
+## License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+- **Ethers.js** for interacting with Ethereum-based networks.  
+- **MetaMask** for wallet connectivity.  
+- **Alchemy** and **Polygon** for RPC endpoints.  
+
