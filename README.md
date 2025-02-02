@@ -26,7 +26,7 @@ Before running the application, ensure you have the following:
 ## **Installation**
 
 ### 1. Clone the Repository
-```bash```
+```https://github.com/Rushilz98/Crossbridge```
 
 
 ## Step 3: Configure Constants
